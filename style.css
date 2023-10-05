@@ -34,7 +34,9 @@ body{
     background-color: #fff;
     border: 1px solid #ccc;
     z-index: 1;
+    transition:0.2s;
 }
+ 
 
 .subnav li {
     padding: 10px;
@@ -48,4 +50,41 @@ body{
 /* CSS cho mục chính khi hover */
 li:hover .subnav {
     display: block;
+    
+}
+
+li:hover{
+    color: blue;
+}
+
+.header2{
+    display: flex;
+    padding-top: 25px;
+}
+
+.header2 p{
+    display: block;
+    padding-top: 12px;
+    padding-left: 10px;
+    
+}
+
+.header2 button{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: none;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    color: white;
 }
