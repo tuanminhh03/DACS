@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+
+} 
+
+.header1{
+    justify-content:space-between;
+    background-color:;
+} 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+.subnav li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.subnav li:last-child {
+    border-bottom: none;
+}
+
+/* CSS cho mục chính khi hover */
+li:hover .subnav {
+    display: block;
+}
