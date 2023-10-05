@@ -15,7 +15,10 @@ a{
     padding: 0 20px;
 
 } 
-
+.header{
+    display: flex;
+    justify-content: space-between;
+}
 .header1{
     justify-content:space-between;
     background-color:;
