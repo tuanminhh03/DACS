@@ -10,6 +10,11 @@ ul li{
     transition: .3s;
 }
 
+#main{
+    width: 100%;
+    height: auto;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -35,7 +40,12 @@ body{
     background-color: #fff;
     border: 1px solid #ccc;
     z-index: 1;
-    transition:0.2s;
+    /* background-color: orange; */
+    /* transition: 10s; */
+}
+
+.subnav a{
+    transition: .3s;
 }
  
 
@@ -108,4 +118,17 @@ li:hover{
 
 .footer a{
     color: white;
+}
+
+.Menu a{
+    transition: .3s;
+}
+
+.subnav a:hover{
+    color: #15558D;
+    
+}
+
+.Menu a:hover{
+    color: #15558D;
 }
